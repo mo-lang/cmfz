@@ -18,3 +18,4 @@ spring:
 mybatis:
   type-aliases-package: com.baizhi.cmfz.entity
   mapper-locations: com/baizhi/cmfz/mapper/*Mapper.xml
+

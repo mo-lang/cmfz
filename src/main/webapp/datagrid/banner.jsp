@@ -55,6 +55,7 @@
                 $("#bannerDgDialog").dialog("open");
             }
         });
+
         $("#bannerDgDialog").dialog({
             title: "添加轮播图",
             height: 240,
@@ -72,6 +73,7 @@
                 }
             }
         });
+
         $("#bannerDgDel").linkbutton({
             iconCls: "icon-remove",
             onClick: function () {
@@ -86,6 +88,7 @@
                 }
             }
         });
+
         $("#bannerDgSave").linkbutton({
             iconCls: "icon-save",
             onClick: function () {

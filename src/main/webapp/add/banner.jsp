@@ -14,7 +14,7 @@
         });
         $("#addBannerFormPic").filebox({
             buttonText: '选择文件',
-            accept: "jpg,png,gif"
+            accept: "image/*"
         });
         $("#addBannerFormSub").linkbutton({
             onClick: function () {
